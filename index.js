@@ -16,9 +16,9 @@ client.prefix = globalPrefix;
 const functionFolder = readdirSync(`./src/functions`);
 
 for (const folder of functionFolder) {
-  const functionFiles = readdirSync(`./src/functions/${folder}`).filter((file = file.endsWith(".js")));
+  const functionFiles = readdirSync(`./src/functions/${folder}`).filter((file) => file.endsWith(".js"));
 
-  for (const file of functionFiles) require(`./functions/${folder}/${file}`)(client);
+  for (const file of functionFiles) require(`./src/functions/${folder}/${file}`)(client);
 }
 
 client.login(token);
