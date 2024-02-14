@@ -4,7 +4,7 @@
   "description": "Official bot discord Momo Ruby",
   "main": "index.js",
   "scripts": {
-    "test": "node ."
+    "test": "nodemon ."
   },
   "repository": {
     "type": "git",
