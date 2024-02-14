@@ -1,6 +1,6 @@
 {
   "name": "momobot",
-  "version": "0.5.1",
+  "version": "0.6.1",
   "description": "Official bot discord Momo Ruby",
   "main": "index.js",
   "scripts": {
