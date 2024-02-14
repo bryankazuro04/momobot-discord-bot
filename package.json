@@ -1,0 +1,27 @@
+{
+  "name": "momobot",
+  "version": "0.0.2",
+  "description": "Official bot discord Momo Ruby",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bryankazuro04/momobot-discord-bot.git"
+  },
+  "keywords": [
+    "discord bot",
+    "discord",
+    "bot",
+    "momo",
+    "ruby",
+    "momo ruby"
+  ],
+  "author": "Bryan Kazuro, Jenderal Momo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bryankazuro04/momobot-discord-bot/issues"
+  },
+  "homepage": "https://github.com/bryankazuro04/momobot-discord-bot#readme"
+}
