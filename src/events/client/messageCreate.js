@@ -1,7 +1,7 @@
 module.exports = {
   name: "messageCreate",
   async execute(message, client) {
-    if (message.content.slice(0, 5) === "verif") {
+    if (message.content.slice(0, 5).toLowerCase() === "verif") {
       if (message.author.bot) return;
 
       const args = message.content.trim().split(/ +/);
